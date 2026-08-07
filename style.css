@@ -584,3 +584,9 @@ input[type="range"] {
   font-size: 12px;
   color: var(--text-faint);
 }
+
+.page-footer strong {
+    color: #fbbf24;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
