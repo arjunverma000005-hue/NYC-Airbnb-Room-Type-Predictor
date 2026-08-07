@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Load the trained model
-model = joblib.load("house_type_classifier.pkl")
+model = joblib.load("Model_Pipeline.pkl")
 
 # Define the column names
 columns = [
@@ -88,7 +88,7 @@ app.add_middleware(
 )
 
 # Load the trained model
-model = joblib.load("house_type_classifier.pkl")
+model = joblib.load("Model_Pipeline.pkl")
 
 # Define the column names
 columns = [
